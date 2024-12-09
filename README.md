@@ -10,41 +10,41 @@ Le recruteur, peut publier des offres d’emploi en indiquant les détails néce
 # Exigences fonctionnelles : 
 
 #### Candidat : 
-        ○ Un candidat DOIT pouvoir créer et modifier son profil avec des informations telles que son nom, ses compétences, son expérience, son CV et une lettre de motivation.
-        ○ Un candidat DOIT pouvoir consulter les offres d’emploi disponibles en fonction de ses préférences et de sa localisation.
-        ○ Un candidat DOIT pouvoir postuler à une ou plusieurs offres en soumettant les documents nécessaires via l’interface.
-        ○ Un candidat DOIT pouvoir suivre le statut de ses candidatures (en attente, accepté, rejeté).
-        ○ Un candidat DOIT pouvoir recevoir des notifications en cas de mise à jour du statut de ses candidatures ou en cas de suppression d’une offre à laquelle il a postulé.
-        ○ Un candidat DOIT pouvoir recevoir des recommandations d’offres personnalisées en fonction de ses compétences
+        - Un candidat DOIT pouvoir créer et modifier son profil avec des informations telles que son nom, ses compétences, son expérience, son CV et une lettre de motivation.
+        - Un candidat DOIT pouvoir consulter les offres d’emploi disponibles en fonction de ses préférences et de sa localisation.
+        - Un candidat DOIT pouvoir postuler à une ou plusieurs offres en soumettant les documents nécessaires via l’interface.
+        - Un candidat DOIT pouvoir suivre le statut de ses candidatures (en attente, accepté, rejeté).
+        - Un candidat DOIT pouvoir recevoir des notifications en cas de mise à jour du statut de ses candidatures ou en cas de suppression d’une offre à laquelle il a postulé.
+        - Un candidat DOIT pouvoir recevoir des recommandations d’offres personnalisées en fonction de ses compétences
 #### Recruteur :
-        ○ Un recruteur DOIT pouvoir créer, modifier et supprimer des offres d’emploi, incluant des détails tels que la description du poste, les compétences requises, la localisation, et le salaire.
-        ○ Un recruteur DOIT pouvoir consulter les candidatures reçues pour une offre spécifique.
-        ○ Un recruteur DOIT pouvoir filtrer les candidatures en fonction de critères tels que l’expérience, les compétences, ou la localisation.
-        ○ Un recruteur DOIT pouvoir mettre à jour le statut d’une candidature (en attente, accepté, rejeté).
+        - Un recruteur DOIT pouvoir créer, modifier et supprimer des offres d’emploi, incluant des détails tels que la description du poste, les compétences requises, la localisation, et le salaire.
+        - Un recruteur DOIT pouvoir consulter les candidatures reçues pour une offre spécifique.
+        - Un recruteur DOIT pouvoir filtrer les candidatures en fonction de critères tels que l’expérience, les compétences, ou la localisation.
+        - Un recruteur DOIT pouvoir mettre à jour le statut d’une candidature (en attente, accepté, rejeté).
 #### Système : 
-        ○ Le système DOIT gérer l’envoi de notifications aux utilisateurs en cas de mise à jour ou de suppression d’offres.
-        ○ Le système DOIT offrir un service de recommandation (basé sur leurs préférences) pour les candidats .
-        ○ Le système DOIT permettre la gestion des autorisations pour sécuriser l’accès.
+        - Le système DOIT gérer l’envoi de notifications aux utilisateurs en cas de mise à jour ou de suppression d’offres.
+        - Le système DOIT offrir un service de recommandation (basé sur leurs préférences) pour les candidats .
+        - Le système DOIT permettre la gestion des autorisations pour sécuriser l’accès.
 
 
 # Diagrammes de séquences :
 
-    • Création compte candidat :
+#### Création compte candidat :
 
 ![](créationCompteCandidat.png)
 
-    • Processus de candidature :
+#### Processus de candidature :
     
 ![](processusCandidature.png)
     
-    • Processus de recrutement :
+#### Processus de recrutement :
     
 ![](processusRecrutement.png)
     
-    • Recommandation des offres au candidat :
+#### Recommandation des offres au candidat :
     
 ![](RecommandationOffre.png)
     
-    • Process de connexion : 
+#### Process de connexion : 
     
 ![](processConnexion.png)
