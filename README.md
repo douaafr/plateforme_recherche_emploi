@@ -39,22 +39,19 @@ On propose de modéliser un système d'aide à la recherche d'emplois, mettant e
 
 # Diagrammes de séquences :
 
-#### Création compte candidat :
-
-![](créationCompteCandidat.png)
-
 #### Processus de candidature :
     
-![](processusCandidature.png)
+![](SoumissionCandidature.png)
     
-#### Processus de recrutement :
+#### Publication d'une offre :
     
-![](processusRecrutement.png)
+![](publicationOffre.png)
+
+#### Mise à jour d'une offre :
+    
+![](MiseAJourStatutOffre.png)
     
 #### Recommandation des offres au candidat :
     
 ![](RecommandationOffre.png)
     
-#### Process de connexion : 
-    
-![](processConnexion.png)
