@@ -1,19 +1,19 @@
 # Acteurs :
-
-Candidat : Cherche des emplois et postule aux offres.
-Employeur : Publie des offres et gère les candidatures.
+<ul>
+<li>Candidat : Cherche des emplois et postule aux offres. </li>
+<li>Employeur : Publie des offres et gère les candidatures. </li>
+</ul>
 
 # Objectifs du système à modéliser :
 
-On propose de modéliser un système d'aide à la recherche d'emplois, mettant en relation les recruteurs et les candidats.
-On propose de modéliser un système de mise en relation des candidats et des employeurs pour faciliter la recherche d’emplois et le suivi des candidatures. Le système permet également d’envoyer des recommandations personnalisées aux candidats basées sur leur CV et les offres disponibles.
+On propose de modéliser un système d'aide à la recherche d'emplois, mettant en relation les recruteurs et les candidats et de mise en relation des candidats et des employeurs pour faciliter la recherche d’emplois et le suivi des candidatures. Le système permet également d’envoyer des recommandations personnalisées aux candidats basées sur leur CV et les offres disponibles.
 
 ## Le projet inclut :
-
-Service de gestion des candidatures.
-Service de gestion des CV (CVThèque).
-Service de gestion des offres d’emploi (Emploithèque).
-Service d’envoi des notifications (statut des candidatures, offres pertinentes).
+<ul>
+<li>Service de gestion des candidatures.</li>
+<li>Service de gestion des CV (CVThèque). </li>
+<li>Service de gestion des offres d’emploi (Emploithèque). </li>
+<li>Service d’envoi des notifications (statut des candidatures, offres pertinentes). </li>
 
 ## Exigences fonctionnelles : 
 
