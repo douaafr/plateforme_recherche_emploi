@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoutes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/service/OffreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/service/OffreService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -247,7 +244,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736708801518</updated>
-      <workItem from="1736708803142" duration="4264000" />
+      <workItem from="1736708803142" duration="7649000" />
     </task>
     <servers />
   </component>
