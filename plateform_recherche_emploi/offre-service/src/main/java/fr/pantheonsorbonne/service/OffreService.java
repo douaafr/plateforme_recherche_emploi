@@ -4,6 +4,7 @@ import fr.pantheonsorbonne.dao.OffreDAO;
 import fr.pantheonsorbonne.dto.OffreDTO;
 import fr.pantheonsorbonne.entity.Offre;
 import fr.pantheonsorbonne.exception.InvalidOffreException;
+import fr.pantheonsorbonne.gateway.CandidatureGateway;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
@@ -13,6 +14,9 @@ public class OffreService {
 
     @Inject
     OffreDAO offreDAO;
+
+    @Inject
+    CandidatureGateway candidatureGateway;
 
     public OffreDTO getOffreById(Long id) {
         Offre offre = offreDAO.getById(id);
@@ -61,6 +65,7 @@ public class OffreService {
         offre.setSalaire(offreDTO.salaire());
 
         offreDAO.saveOffre(offre);
+        candidatureGateway.handleNewOffre(offreDTO);
 
         return offre.getId();
 
