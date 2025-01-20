@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/dao/OffreDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/dao/OffreDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/entity/Offre.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/entity/Offre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/gateway/CandidatureGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/gateway/CandidatureGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/resources/OffreResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/resources/OffreResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/service/OffreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/service/OffreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +33,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "douaafr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;douaafr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/douaafr/plateforme_recherche_emploi.git",
-    "accountId": "8b3fc018-bfec-457c-819a-6023c3118d81"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/douaafr/plateforme_recherche_emploi.git&quot;,
+    &quot;accountId&quot;: &quot;8b3fc018-bfec-457c-819a-6023c3118d81&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2rXcKviPG5B05I9yr2gEg0dvbJq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +61,8 @@
     "Quarkus.notification-service.executor": "Debug",
     "Quarkus.offre-service.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "offre__service__branch",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/douaa/Desktop/M1 MIAGE",
@@ -62,6 +73,11 @@
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
   <component name="RunDashboard">
@@ -245,6 +261,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736708801518</updated>
       <workItem from="1736708803142" duration="7649000" />
+      <workItem from="1737394920039" duration="11465000" />
     </task>
     <servers />
   </component>

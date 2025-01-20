@@ -1,39 +1,39 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-<modelVersion>4.0.0</modelVersion>
-<groupId>fr.pantheonsorbonne.miage</groupId>
-<artifactId>plateforme_recherche_emploi</artifactId>
-<version>1.0-SNAPSHOT</version>
-<packaging>pom</packaging>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.pantheonsorbonne.miage</groupId>
+    <artifactId>plateforme_recherche_emploi</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-<name>projet-m1</name>
+    <name>projet-m1</name>
 
-<modules>
-    <module>candidature-service</module>
-    <module>cv-service</module>
-    <module>offre-service</module>
-    <module>notification-service</module>
-</modules>
+    <modules>
+        <module>candidature-service</module>
+        <module>cv-service</module>
+        <module>offre-service</module>
+        <module>notification-service</module>
+    </modules>
 
-<dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>io.quarkus.platform</groupId>
-            <artifactId>quarkus-bom</artifactId>
-            <version>3.15.2</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
-    </dependencies>
-</dependencyManagement>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.quarkus.platform</groupId>
+                <artifactId>quarkus-bom</artifactId>
+                <version>3.15.2</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
-<build>
-    <plugins>
-        <plugin>
-            <artifactId>maven-install-plugin</artifactId>
-            <version>3.1.0</version>
-        </plugin>
-    </plugins>
-</build>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>

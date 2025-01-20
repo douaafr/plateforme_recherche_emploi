@@ -1,14 +1,14 @@
 package fr.pantheonsorbonne.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "offre")
 public class Offre {
     @Id
     @GeneratedValue
     private Long id;
+    @Column(nullable = false)
     private String nom;
     private String description;
     private String entreprise;
