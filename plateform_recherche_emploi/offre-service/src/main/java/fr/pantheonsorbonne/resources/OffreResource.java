@@ -36,7 +36,7 @@ public class OffreResource {
     public Response postOffre(OffreDTO offreDTO){
         try {
             Long offreId = offreService.checkAndSaveOffre(offreDTO);
-            return Response.created(URI.create("/offres"+offreId)).build();
+            return Response.created(URI.create("/offre/"+offreId)).build();
         } catch (InvalidOffreException e) {
             throw new WebApplicationException(Response.status(Response.Status.BAD_REQUEST).entity(e.getMessage()).build());
         }

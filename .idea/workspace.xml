@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dto/OffreDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dto/OffreDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +28,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "douaafr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;douaafr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/douaafr/plateforme_recherche_emploi.git",
-    "accountId": "8b3fc018-bfec-457c-819a-6023c3118d81"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/douaafr/plateforme_recherche_emploi.git&quot;,
+    &quot;accountId&quot;: &quot;8b3fc018-bfec-457c-819a-6023c3118d81&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2rXcKviPG5B05I9yr2gEg0dvbJq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +56,8 @@
     "Quarkus.notification-service.executor": "Debug",
     "Quarkus.offre-service.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "offre__service__branch",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/douaa/Desktop/M1 MIAGE",
@@ -62,8 +68,18 @@
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.pantheonsorbonne.entity" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -74,7 +90,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Quarkus.offre-service">
+  <component name="RunManager" selected="Quarkus.candidature-service">
     <configuration name="candidature-service" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
       <module name="candidature-service" />
       <QsMavenRunConfiguration>
@@ -245,10 +261,22 @@
       <option name="presentableId" value="Default" />
       <updated>1736708801518</updated>
       <workItem from="1736708803142" duration="7649000" />
+      <workItem from="1737394920039" duration="21420000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

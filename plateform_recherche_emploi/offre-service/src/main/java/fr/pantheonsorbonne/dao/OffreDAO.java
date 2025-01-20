@@ -4,6 +4,7 @@ import fr.pantheonsorbonne.entity.Offre;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 
 @ApplicationScoped
 public class OffreDAO {
@@ -17,6 +18,7 @@ public class OffreDAO {
 
     }
 
+    @Transactional
     public void saveOffre(Offre offre) {
         em.persist(offre);
     }

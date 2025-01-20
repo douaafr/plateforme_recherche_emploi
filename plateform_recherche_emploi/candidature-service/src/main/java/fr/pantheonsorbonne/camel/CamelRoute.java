@@ -23,7 +23,7 @@ public class CamelRoute extends RouteBuilder {
                 .to("direct:storeLocally");
 
         from("direct:sendToCvService")
-                .marshal().json().to("sjms2.M1.CvService");
+                .marshal().json().to("sjms2:M1.CvService");
 
         //!from("direct:sendToNotificationService")
            //     .marshal().json().to("sjms2.M1.NotificationService");
