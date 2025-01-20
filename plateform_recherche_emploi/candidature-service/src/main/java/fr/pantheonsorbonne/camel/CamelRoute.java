@@ -1,4 +1,4 @@
-package fr.pantheonsorbonne.camel;
+/*package fr.pantheonsorbonne.camel;
 
 import fr.pantheonsorbonne.dto.OffreDTO;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -42,3 +42,4 @@ public class CamelRoute extends RouteBuilder {
                 .marshal().csv().to("file:data?fileName=candidature_storage.csv&appendChars=\\n&fileExist=Append");
     }
 }
+*/

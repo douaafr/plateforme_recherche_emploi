@@ -1,4 +1,4 @@
-package fr.pantheonsorbonne.service;
+/*package fr.pantheonsorbonne.service;
 
 import fr.pantheonsorbonne.dto.OffreDTO;
 import io.quarkus.runtime.annotations.RegisterForReflection;
@@ -17,3 +17,4 @@ public class CandidatureService {
     }
 
 }
+*/

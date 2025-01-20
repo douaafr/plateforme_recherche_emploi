@@ -1,4 +1,4 @@
-/*package fr.pantheonsorbonne.gateway;
+package fr.pantheonsorbonne.gateway;
 
 import fr.pantheonsorbonne.dto.OffreDTO;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -16,4 +16,3 @@ public class CandidatureGateway {
        producerTemplate.sendBody("direct:newOffre", offre);
     }
 }
-*/

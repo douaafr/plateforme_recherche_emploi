@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dto/OffreDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dto/OffreDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoutes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/dao/OffreDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/dao/OffreDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/entity/Offre.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/entity/Offre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/gateway/CandidatureGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/gateway/CandidatureGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/resources/OffreResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/resources/OffreResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/service/OffreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/service/OffreService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,11 +258,22 @@
       <option name="presentableId" value="Default" />
       <updated>1736708801518</updated>
       <workItem from="1736708803142" duration="7649000" />
-      <workItem from="1737394920039" duration="11465000" />
+      <workItem from="1737394920039" duration="16062000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
