@@ -1,56 +1,53 @@
-/*package fr.pantheonsorbonne.entity;
+package fr.pantheonsorbonne.entity;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
+
+@Entity
+@Table(name="candidature")
 public class Candidature {
+
     @Id
     @GeneratedValue
-    Long id;
-    String nomOffre;
-    String descriptionOffre;
-    String entreprise;
-    String candidatureNumber;
+    private Long id;
 
+    @Column(nullable = false)
+    String candidatId;
 
-    public Long getId() {
-        return id;
-    }
+    @Column(nullable = false)
+    Long offreId;
+
+    String statut;
 
     public void setId(Long id) {
         this.id = id;
     }
 
-    public String getNomOffre() {
-        return nomOffre;
+    public Long getId() {
+        return id;
     }
 
-    public void setNomOffre(String nomOffre) {
-        this.nomOffre = nomOffre;
+    public String getCandidatId() {
+        return candidatId;
     }
 
-    public String getDescriptionOffre() {
-        return descriptionOffre;
+    public void setCandidatId(String candidatId) {
+        this.candidatId = candidatId;
     }
 
-    public void setDescriptionOffre(String descriptionOffre) {
-        this.descriptionOffre = descriptionOffre;
+    public Long getOffreId() {
+        return offreId;
     }
 
-    public String getEntreprise() {
-        return entreprise;
+    public void setOffreId(Long offreId) {
+        this.offreId = offreId;
     }
 
-    public void setEntreprise(String entreprise) {
-        this.entreprise = entreprise;
+    public String getStatut() {
+        return statut;
     }
 
-    public String getCandidatureNumber() {
-        return candidatureNumber;
-    }
-
-    public void setCandidatureNumber(String candidatureNumber) {
-        this.candidatureNumber = candidatureNumber;
+    public void setStatut(String statut) {
+        this.statut = statut;
     }
 }
-*/

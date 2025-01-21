@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dao/CandidatureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dao/CandidatureDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dto/OffreDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dto/OffreDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/entity/Candidature.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/entity/Candidature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/resources/CandidatureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/resources/CandidatureResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
       <list>
         <option value="Record" />
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -77,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.pantheonsorbonne.gateway" />
       <recent name="fr.pantheonsorbonne.entity" />
     </key>
   </component>
@@ -261,7 +266,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736708801518</updated>
       <workItem from="1736708803142" duration="7649000" />
-      <workItem from="1737394920039" duration="21420000" />
+      <workItem from="1737394920039" duration="33545000" />
     </task>
     <servers />
   </component>
