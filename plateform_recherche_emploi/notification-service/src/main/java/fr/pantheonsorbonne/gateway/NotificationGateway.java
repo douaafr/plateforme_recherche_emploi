@@ -27,7 +27,7 @@ public class NotificationGateway implements Processor {
         }
 
         // Appeler le service REST
-        try (Response resp = notificationResource.pushNotif("reçu " + offreDTO.toString())) {
+        try (Response resp = notificationResource.pushNotif("Nouvelle offre " + offreDTO.toString())) {
             if (resp.getStatus() != 200) {
                 throw new Exception("Error Code: " + resp.getStatus());
             }

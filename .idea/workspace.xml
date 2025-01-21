@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa4c6951-38d0-4d92-904b-a64032863d7a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fa4c6951-38d0-4d92-904b-a64032863d7a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="v2 notification-service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/notification-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/notification-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/notification-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoutes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/offre-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/dao/CvDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/dao/CvDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/dto/CvDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/dto/CvDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/entity/Cv.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/entity/Cv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/resources/CvResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/resources/CvResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/service/CvService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/service/CvService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/notification-service/src/main/java/fr/pantheonsorbonne/gateway/NotificationGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/notification-service/src/main/java/fr/pantheonsorbonne/gateway/NotificationGateway.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,16 +23,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="offre_service_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +49,9 @@
     &quot;accountId&quot;: &quot;0b0dfdc1-1422-4f5c-97b0-7b2a40cd10a2&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -57,29 +61,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Quarkus.candidature-service.executor&quot;: &quot;Debug&quot;,
-    &quot;Quarkus.cv-service.executor&quot;: &quot;Debug&quot;,
-    &quot;Quarkus.notification-service.executor&quot;: &quot;Debug&quot;,
-    &quot;Quarkus.offre-service.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;offre__service__branch&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/douaa/Desktop/M1 MIAGE&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Quarkus.candidature-service.executor": "Debug",
+    "Quarkus.cv-service.executor": "Debug",
+    "Quarkus.notification-service.executor": "Debug",
+    "Quarkus.offre-service.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "notificationV2__service__branch",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/douaa/Desktop/M1 MIAGE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -262,11 +266,24 @@
       <updated>1736708801518</updated>
       <workItem from="1736708803142" duration="7649000" />
       <workItem from="1737416604966" duration="8097000" />
-      <workItem from="1737455084113" duration="2929000" />
+      <workItem from="1737455084113" duration="11338000" />
     </task>
+    <task id="LOCAL-00001" summary="v2 notification-service">
+      <option name="closed" value="true" />
+      <created>1737458298214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737458298214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v2 notification-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2 notification-service" />
   </component>
 </project>
