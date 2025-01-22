@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/resources/CandidatureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/resources/CandidatureResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" afterDir="false" />
-    </list>
+    <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="offre_service_branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
