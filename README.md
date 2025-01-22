@@ -43,29 +43,6 @@ On propose de modéliser un système d'aide à la recherche d'emplois, mettant e
 - La CVThèque envoie par email les nouvelles offres aux candidats.
 
 
-
-
-# Diagrammes de séquences :
-
-
-#### Processus de candidature :
-![](Processus de candidature.png)
-  
-#### Publication d'une offre :
-![](Processus de publication d'une offre.png)
-
-
-#### Mise à jour d'une offre :
-![](Processus de mise à jour d'une offre.png)
-  
-#### Création d'un CV:
-![](Processus de création d'un CV(1).png)
-
-
-#### Mise à jour d'un CV:
-![](Processus de mise à jour d'un CV(1).png)
-
-
 # Diagrammes de séquences :
 
 #### Processus de candidature :
