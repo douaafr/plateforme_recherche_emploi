@@ -43,18 +43,5 @@ public class CamelRoute extends RouteBuilder {
                 .marshal().csv()
                 .to("file:data?fileName=candidature_storage.csv&appendChars=\\n&fileExist=Append");
 
-
-        from("direct:getOffreById")
-                .log("Fetching offre by ID from Offre-Service: ${body}")
-                .toD("http://localhost:8082/offre/${body}?bridgeEndpoint=true")
-                .unmarshal().json(OffreDTO.class)
-                .log("Fetched offre: ${body}");
-
-
-        from("direct:updateCandidatureNumber")
-                .log("Updating candidature number in Offre-Service")
-                .marshal().json()
-                .to("http://localhost:8082/offre/updateCandidatureNumber?bridgeEndpoint=true")
-                .log("Candidature number updated successfully.");
     }
 }
