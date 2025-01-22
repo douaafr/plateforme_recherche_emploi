@@ -1,7 +1,7 @@
 package fr.pantheonsorbonne.resources;
 
-import fr.pantheonsorbonne.dto.CandidatureDTO;
 import fr.pantheonsorbonne.dto.OffreDTO;
+import fr.pantheonsorbonne.entity.Candidature;
 import fr.pantheonsorbonne.exception.InvalidCandidatureException;
 import fr.pantheonsorbonne.service.CandidatureService;
 import jakarta.inject.Inject;
@@ -16,10 +16,11 @@ public class CandidatureResource {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
     public Response createCandidature(OffreDTO offreDTO) {
         try {
-            CandidatureDTO candidatureDTO = candidatureService.createCandidatureForOffre(offreDTO);
-            return Response.ok(candidatureDTO).build();
+            Candidature candidature = candidatureService.createCandidatureForOffre(offreDTO);
+            return Response.ok(candidature).build();
         } catch (InvalidCandidatureException e) {
             return Response.status(Response.Status.BAD_REQUEST).entity(e.getMessage()).build();
         }
@@ -30,7 +31,7 @@ public class CandidatureResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getCandidatureById(@PathParam("id") Long id) {
         try {
-            CandidatureDTO candidature = candidatureService.getCandidatureById(id);
+            Candidature candidature = candidatureService.getCandidatureById(id);
             if (candidature == null) {
                 throw new InvalidCandidatureException("Candidature with ID " + id + " not found.");
             }

@@ -1,7 +1,6 @@
 package fr.pantheonsorbonne.service;
 
 import fr.pantheonsorbonne.dao.CandidatureDAO;
-import fr.pantheonsorbonne.dto.CandidatureDTO;
 import fr.pantheonsorbonne.dto.OffreDTO;
 import fr.pantheonsorbonne.entity.Candidature;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -17,12 +16,10 @@ public class CandidatureService {
     CandidatureDAO candidatureDAO;
 
     @Transactional
-    public CandidatureDTO createCandidatureForOffre(OffreDTO offreDTO) {
-
+    public Candidature createCandidatureForOffre(OffreDTO offreDTO) {
         if (offreDTO == null || offreDTO.id() == null) {
             throw new IllegalArgumentException("Les informations de l'offre sont invalides.");
         }
-
 
         Candidature candidature = new Candidature();
         candidature.setCandidatId("defaultCandidatId");
@@ -31,40 +28,11 @@ public class CandidatureService {
 
         candidatureDAO.saveCandidature(candidature);
 
-
-        return new CandidatureDTO(
-                candidature.getId(),
-                candidature.getCandidatId(),
-                offreDTO,
-                candidature.getStatut()
-        );
+        return candidature;
     }
-    
 
-    public CandidatureDTO getCandidatureById(Long id) {
-        Candidature candidature = candidatureDAO.getById(id);
-        if (candidature == null) {
-            return null;
-        }
-
-        // Stub pour OffreDTO si nécessaire
-        OffreDTO offreDTO = new OffreDTO(
-                candidature.getOffreId(),
-                "Nom Offre",
-                "Description Offre",
-                "Entreprise",
-                "Localisation",
-                "Type Contrat",
-                0.0,
-                "0"
-        );
-
-        return new CandidatureDTO(
-                candidature.getId(),
-                candidature.getCandidatId(),
-                offreDTO,
-                candidature.getStatut()
-        );
+    public Candidature getCandidatureById(Long id) {
+        return candidatureDAO.getById(id);
     }
 
     @Transactional
