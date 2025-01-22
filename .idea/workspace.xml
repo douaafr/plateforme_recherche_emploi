@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="v2 notification-service">
+    <list default="true" id="8deeb5cf-da6a-4066-99bb-118264bc4824" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/dao/CvDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/dao/CvDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/dto/CvDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/dto/CvDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/entity/Cv.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/entity/Cv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/resources/CvResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/resources/CvResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/service/CvService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/java/fr/pantheonsorbonne/service/CvService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/cv-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/notification-service/src/main/java/fr/pantheonsorbonne/gateway/NotificationGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/notification-service/src/main/java/fr/pantheonsorbonne/gateway/NotificationGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/camel/CamelRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dao/CandidatureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dao/CandidatureDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dto/OffreDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/dto/OffreDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/entity/Candidature.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/entity/Candidature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/resources/CandidatureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/resources/CandidatureResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plateform_recherche_emploi/candidature-service/src/main/java/fr/pantheonsorbonne/service/CandidatureService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
         <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -84,6 +85,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.pantheonsorbonne.gateway" />
+      <recent name="fr.pantheonsorbonne.entity" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -94,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Quarkus.offre-service">
+  <component name="RunManager" selected="Quarkus.candidature-service">
     <configuration name="candidature-service" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
       <module name="candidature-service" />
       <QsMavenRunConfiguration>
@@ -265,8 +272,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736708801518</updated>
       <workItem from="1736708803142" duration="7649000" />
-      <workItem from="1737416604966" duration="8097000" />
-      <workItem from="1737455084113" duration="11338000" />
+      <workItem from="1737394920039" duration="33545000" />
     </task>
     <task id="LOCAL-00001" summary="v2 notification-service">
       <option name="closed" value="true" />
