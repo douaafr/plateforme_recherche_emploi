@@ -18,20 +18,20 @@ public class CandidatureService {
 
     @Transactional
     public CandidatureDTO createCandidatureForOffre(OffreDTO offreDTO) {
-        // Vérifiez que l'offre n'est pas nulle
+
         if (offreDTO == null || offreDTO.id() == null) {
             throw new IllegalArgumentException("Les informations de l'offre sont invalides.");
         }
 
-        // Création de l'objet Candidature
+
         Candidature candidature = new Candidature();
-        candidature.setCandidatId("defaultCandidatId"); // Remplacez par votre logique réelle
+        candidature.setCandidatId("defaultCandidatId");
         candidature.setOffreId(offreDTO.id());
         candidature.setStatut("En cours");
 
         candidatureDAO.saveCandidature(candidature);
 
-        // Retourne un DTO de candidature
+
         return new CandidatureDTO(
                 candidature.getId(),
                 candidature.getCandidatId(),
@@ -39,8 +39,7 @@ public class CandidatureService {
                 candidature.getStatut()
         );
     }
-
-    // Autres méthodes pour récupérer et mettre à jour une candidature
+    
 
     public CandidatureDTO getCandidatureById(Long id) {
         Candidature candidature = candidatureDAO.getById(id);
