@@ -15,4 +15,5 @@ public class CandidatureGateway {
 
        producerTemplate.sendBody("direct:newOffre", offre);
     }
+
 }
